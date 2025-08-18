@@ -1,6 +1,6 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark padding">
-    <a class="navbar-brand" href="/">Firengii</a>
+    <NuxtLink class="navbar-brand" to="/">Firengii</NuxtLink>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -9,10 +9,10 @@
     <div class="collapse navbar-collapse ms-auto" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item active">
-          <a href="/products" class="nav-link">Products <span class="sr-only">(current)</span></a>
+          <NuxtLink to="/products" class="nav-link">Products <span class="sr-only">(current)</span></NuxtLink>
         </li>
         <li class="nav-item active">
-          <a href="/my-items" class="nav-link">My Items <span class="sr-only">(current)</span></a>
+          <NuxtLink to="/my-items" class="nav-link">My Items <span class="sr-only">(current)</span></NuxtLink>
         </li>
       </ul>
     </div>
