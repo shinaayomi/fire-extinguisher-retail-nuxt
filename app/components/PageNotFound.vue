@@ -16,7 +16,8 @@ div {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 50rem
+  width: 50rem;
+  margin: auto;
 }
 
 h1 {
