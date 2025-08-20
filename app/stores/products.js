@@ -223,9 +223,9 @@ export const useProductsStore = defineStore("products", {
     selected: null,
   }),
   getters: {
-    getProductById: (state) => (id) => state.products.find((p) => p.id === id),
+    getProductById: (state) => (id) => state.items.find((p) => p.id === id),
 
-    getAllProducts: (state) => state.products, // ✅ add this
+    getAllProducts: (state) => state.items, // ✅ add this
   },
   actions: {
     setProducts(data) {

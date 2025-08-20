@@ -4,10 +4,10 @@
   </div>
 </template>
 
-<script>
-export default {
-
-}
+<script setup>
+definePageMeta({
+  layout: 'no-nav'
+})
 </script>
 
 <style scoped></style>
