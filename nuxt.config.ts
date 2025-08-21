@@ -3,5 +3,6 @@ export default defineNuxtConfig({
   modules: ['@pinia/nuxt'],
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
-  css: ['bootstrap/dist/css/bootstrap.min.css'] 
+  plugins: [{src: '~/plugins/bootstrap.client.js'}, {src: '~/plugins/vue-calendar.js', mode: 'client'}],
+  css: ['bootstrap/dist/css/bootstrap.min.css']
 })
