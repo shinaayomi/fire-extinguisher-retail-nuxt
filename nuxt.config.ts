@@ -4,5 +4,6 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
   plugins: [{src: '~/plugins/bootstrap.client.js'}, {src: '~/plugins/vue-calendar.js', mode: 'client'}],
-  css: ['bootstrap/dist/css/bootstrap.min.css']
+  css: ['bootstrap/dist/css/bootstrap.min.css'],
+  nitro: { preset: "netlify" }
 })
