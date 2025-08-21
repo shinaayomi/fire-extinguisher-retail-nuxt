@@ -5,5 +5,9 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   plugins: [{src: '~/plugins/bootstrap.client.js'}, {src: '~/plugins/vue-calendar.js', mode: 'client'}],
   css: ['bootstrap/dist/css/bootstrap.min.css'],
-  nitro: { preset: "netlify" }
+  nitro: { preset: "netlify" },
+  app: {
+    baseURL: "/",  // change if your site is under a subpath
+    cdnURL: ""     // leave empty unless using a CDN
+  }
 })
