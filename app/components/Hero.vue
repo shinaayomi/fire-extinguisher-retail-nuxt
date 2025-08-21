@@ -71,10 +71,10 @@ export default {
   width: 21.5rem;
 }
 
-@media (max-width: 500px) {
-  /* .Hero {
+/* @media (max-width: 500px) {
+  .Hero {
     height: 40vh;
 
-  } */
-}
+  }
+} */
 </style>
