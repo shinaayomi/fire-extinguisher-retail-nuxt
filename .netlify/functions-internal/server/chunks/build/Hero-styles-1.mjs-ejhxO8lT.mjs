@@ -1,4 +1,0 @@
-const Hero_vue_vue_type_style_index_0_scoped_23a6b075_lang = ".Hero[data-v-23a6b075]{align-items:flex-start;display:flex;justify-content:space-between;padding:5rem 0;position:relative}.text-container[data-v-23a6b075]{margin-top:4rem;width:50%}.header[data-v-23a6b075]{font-size:5rem;font-weight:900}.snippet[data-v-23a6b075]{color:gray;font-size:1.25rem}.image[data-v-23a6b075]{margin-top:2rem;width:27.5rem}.overlay[data-v-23a6b075]{background:transparent;height:100%;position:absolute;top:0;width:100%}.button[data-v-23a6b075]{background-color:#e7512b;border-radius:100rem;color:#fff;font-weight:700;padding:1rem 4rem;transition:.5s;width:20rem}.button[data-v-23a6b075]:hover{width:21.5rem}";
-
-export { Hero_vue_vue_type_style_index_0_scoped_23a6b075_lang as H };
-//# sourceMappingURL=Hero-styles-1.mjs-ejhxO8lT.mjs.map
