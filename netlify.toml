@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"
+  publish = ".netlify/publish"
+
+[functions]
+  node_bundler = "esbuild"
+
+[context.production.environment]
+  NITRO_PRESET = "netlify"
